@@ -1,0 +1,12 @@
+/* Remove margens e barras de rolagem */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /* Fundo escuro */
+}
+/* Faz o canvas preencher a tela inteira */
+canvas {
+    display: block;
+    background-color: #f0f0f0; /* Fundo claro para o canvas */
+}
